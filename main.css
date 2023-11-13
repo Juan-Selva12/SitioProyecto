@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+.logoinicio{
+  margin-left: 46%;
+  font-size: 0.9rem;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden scroll;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 7px; 
+    margin: 0;
+
+}
+.footer1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 7px; 
+    margin: 0;
+    position: fixed;
+
+}
+.h2inc{
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2, .h2inc{
+    font-size: 2.3em; 
+}
+h1,
+h2{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (max-width: 576px) {
+    h1{
+      font-size: 1.3rem;
+      flex-direction: column;
+    }
+  
+    h2, .h2inc {
+      font-size: 0.9rem;
+      margin-block-start: 0.6rem;
+      margin-block-end: 0.6rem;
+      margin-left: 1px;
+      margin-top: 0%;
+    }
+}
+ @media (max-width: 992px) {
+    h1{
+      font-size: 1.5rem;
+      flex-direction: column;
+    }
+  
+    h2, .h2inc{
+      font-size: 1.2rem;
+      margin-block-start: 0.6rem;
+      margin-block-end: 0.6rem;
+      margin-left: 0px;
+      margin-top: 0%;
+    }
+}
+
+.imgcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img{
+  object-fit: cover;
+  height: 25%;
+  width: 15%;
+  
+}
+@media (max-width:576px){
+  .img{
+    height: 8%;
+  }
+}
+@media (max-width:992px){
+  .img{
+    height: 10%;
+  }
+}
+
+#map{
+  display: flex;
+  position: relative;  
+  height: 600px;
+  width: 50%;
+  margin: 5% auto;
+  align-items: center;
+}
+@media (max-width:576px){
+  #map{
+    height: 350px;
+    width: 30%;
+  }
+}
+@media (max-width: 992px){
+  #map{
+    height: 400px;
+    width:35%;
+  }
+}
